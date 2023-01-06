@@ -15,10 +15,10 @@ html {
   box-sizing: border-box;
 }
 *,
-/* *::before,
+*::before,
 *::after {
-  box-sizing: inherit;
-} */
+  box-sizing: border-box;
+}
 h1,
 h2,
 h3,
@@ -30,6 +30,8 @@ ul,
 li {
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -196,7 +198,6 @@ li {
   color: var(--color-primary);
 } */
 .about_item {
-  padding-left: 0;
   display: flex;
   /* justify-content: space-between; */
 }
@@ -238,14 +239,15 @@ li {
 } */
 .work-item {
   display: flex;
-  justify-content: space-between;
-  padding-left: 0;
-  padding-right: 0;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 .work_list_img {
-  width: 370;
-  height: 294;
-  /* margin-right: 30px; */
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 90px) / 3);
 }
 .teams {
   font-family: "Roboto";
@@ -275,17 +277,13 @@ li {
 .teams_item {
   margin-left: 30px;
   margin-top: 30px;
-  /* flex-basis: calc((100%-120px) / 4); */
+  flex-basis: calc((100% - 120px) / 4);
   background: var(--color-background-primary);
   /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px; */
 }
 
-.teams_item .teams_photo {
-  width: 270px;
-  height: 260px;
-}
 .teams_name {
   margin-top: 30px;
   font-weight: 500;
