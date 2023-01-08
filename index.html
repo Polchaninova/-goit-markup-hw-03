@@ -29,12 +29,12 @@
     <header class="header">
       <div class="container header-container">
         <nav class="nav">
+          <li class="nav_list_logo">
+            <a class="nav_link_logo" href="./index.html"
+              ><span class="nav_link_logo current">Web</span>Studio</a
+            >
+          </li>
           <ul class="nav-item">
-            <li class="nav_list_logo">
-              <a class="nav_link_logo" href="./index.html"
-                ><span class="nav_link_logo current">Web</span>Studio</a
-              >
-            </li>
             <li class="nav_list">
               <a class="nav_link_menu current" href="./index.html">Студія</a>
             </li>
@@ -47,12 +47,12 @@
           </ul>
         </nav>
         <ul class="header-contact">
-          <li class="header_list">
+          <li class="header_list_email">
             <a class="header_link_email" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li class="header_list">
+          <li class="header_list_tel">
             <a class="header_link_tel" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
@@ -69,7 +69,7 @@
       </section>
       <section class="about section">
         <div class="container">
-          <h2 class="about_title title">Наші переваги</h2>
+          <h2 class="about_title title visually-hidden">Наші переваги</h2>
           <ul class="about_item">
             <li class="about_list_feature">
               <h3 class="about_feature_title">Увага до діталей</h3>
@@ -102,7 +102,7 @@
           </ul>
         </div>
       </section>
-      <section class="work section">
+      <section class="work">
         <div class="container">
           <h2 class="work_title title">Чим ми займаємося</h2>
           <ul class="work-item">
@@ -149,9 +149,11 @@
                 width="270"
                 height="260"
               />
-              <h3 class="teams_name">Ігор Дем'яненко</h3>
+              <div class="team_member_card">
+                <h3 class="teams_name">Ігор Дем'яненко</h3>
 
-              <p class="teams_position">Product Designer</p>
+                <p class="teams_position">Product Designer</p>
+              </div>
             </li>
             <li class="teams_item">
               <img
@@ -161,8 +163,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="teams_name">Ольга Рєпіна</h3>
-              <p class="teams_position">Frontend Developer</p>
+              <div class="team_member_card">
+                <h3 class="teams_name">Ольга Рєпіна</h3>
+                <p class="teams_position">Frontend Developer</p>
+              </div>
             </li>
             <li class="teams_item">
               <img
@@ -172,8 +176,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="teams_name">Микола Тарасов</h3>
-              <p class="teams_position">Marketing</p>
+              <div class="team_member_card">
+                <h3 class="teams_name">Микола Тарасов</h3>
+                <p class="teams_position">Marketing</p>
+              </div>
             </li>
             <li class="teams_item">
               <img
@@ -183,8 +189,10 @@
                 width="270"
                 height="260"
               />
-              <h3 class="teams_name">Михайло Єрмаков</h3>
-              <p class="teams_position">UI Designer</p>
+              <div class="team_member_card">
+                <h3 class="teams_name">Михайло Єрмаков</h3>
+                <p class="teams_position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -213,7 +221,7 @@
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="footer_list_contact">
               <a class="footer_contact" href="tel:+380961111111"
                 >+38 096 111 11 11</a
               >
