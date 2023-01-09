@@ -247,9 +247,7 @@ img {
   margin-top: 30px;
   flex-basis: calc((100% - 90px) / 3);
 }
-.work_picture_img {
-  display: block;
-}
+
 .teams {
   font-family: "Roboto";
   background-color: var(--color-background-brand);
@@ -272,9 +270,7 @@ img {
   flex-basis: calc((100% - 120px) / 4);
   background: var(--color-background-primary);
 }
-.teams_photo {
-  display: block;
-}
+
 .team_member_card {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -392,8 +388,7 @@ address {
 .server_item {
   margin-left: 30px;
   margin-bottom: 30px;
-  /* width: 370px;
-  height: 404px; */
+ 
 }
 .card_border {
   background: var(--color-background-primary);
