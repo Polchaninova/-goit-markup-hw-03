@@ -364,7 +364,6 @@ address {
   background: var(--color-background-brand);
   border: var(--color-background-brand);
   border-radius: 4px;
-  
 
   font-weight: 500;
   font-size: 16px;
@@ -375,7 +374,7 @@ address {
 .services_btn:hover,
 .services_btn:focus {
   background: var(--color-background-action);
- 
+
   color: var(--color-background-primary);
 }
 .server_menu {
@@ -388,7 +387,6 @@ address {
 .server_item {
   margin-left: 30px;
   margin-bottom: 30px;
- 
 }
 .card_border {
   background: var(--color-background-primary);
